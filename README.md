@@ -36,7 +36,7 @@ TroublMapProf.err.txt - stderr during anvi-profile
 
 TroublMapProf.out.txt - stdout during anvi-profile
 
-      Note, this profile was forcibly cancelled after ~1 hour, but originally ran for ~23 hours until workload manager killed        the job. Other profiles on similar sized reads sets mapped to the same contigs finished within minutes.
+      Note, this profile was forcibly cancelled after ~1 hour, but originally ran for ~23 hours until workload manager killed the job. Other profiles on similar sized reads sets mapped to the same contigs finished within minutes.
 
 
 Error (deviation from completing anvi-profile runlogs):
