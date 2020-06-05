@@ -1,0 +1,45 @@
+[05 Jun 20 10:16:13] anvio ..............................: 6.2
+[05 Jun 20 10:16:13] profiler_version ...................: 31
+[05 Jun 20 10:16:13] sample_id ..........................: TROUBLMAPSORT
+[05 Jun 20 10:16:13] description ........................: None
+[05 Jun 20 10:16:13] profile_db .........................: /proj/mg_AONOTandReact/ManualRuns/Untreated/Reactor_AO/Anvio/Troubl/TroublMapProf/PROFILE.db
+[05 Jun 20 10:16:13] contigs_db .........................: True
+[05 Jun 20 10:16:13] contigs_db_hash ....................: hash262c9fb8
+[05 Jun 20 10:16:13] cmd_line ...........................: /usr/local/bioinfo/Anaconda3/envs/anvio6/bin/anvi-profile -c Conts.db -i TroublMapSort.bam -o TroublMapProf -M 2000 -T 4
+[05 Jun 20 10:16:13] merged .............................: False
+[05 Jun 20 10:16:13] blank ..............................: False
+[05 Jun 20 10:16:13] split_length .......................: 20,000
+[05 Jun 20 10:16:13] min_contig_length ..................: 2,000
+[05 Jun 20 10:16:13] max_contig_length ..................: 9,223,372,036,854,775,807
+[05 Jun 20 10:16:13] min_mean_coverage ..................: 0
+[05 Jun 20 10:16:13] clustering_performed ...............: False
+[05 Jun 20 10:16:13] min_coverage_for_variability .......: 10
+[05 Jun 20 10:16:13] skip_SNV_profiling .................: False
+[05 Jun 20 10:16:13] profile_SCVs .......................: False
+[05 Jun 20 10:16:13] report_variability_full ............: False
+[05 Jun 20 10:16:13] WARNING
+=====================================
+Your minimum contig length is set to 2,000 base pairs. So anvi'o will not take
+into consideration anything below that. If you need to kill this an restart your
+analysis with another minimum contig length value, feel free to press CTRL+C.
+[05 Jun 20 10:16:13] input_bam ..........................: /proj/mg_AONOTandReact/ManualRuns/Untreated/Reactor_AO/Anvio/Troubl/TroublMapSort.bam
+[05 Jun 20 10:16:13] output_dir .........................: /proj/mg_AONOTandReact/ManualRuns/Untreated/Reactor_AO/Anvio/Troubl/TroublMapProf
+[05 Jun 20 10:16:13] total_reads_mapped .................: 7,312,172
+[05 Jun 20 10:16:13] num_contigs ........................: 83,204
+[05 Jun 20 10:16:13] num_contigs_after_M ................: 30,674
+[05 Jun 20 10:16:13] num_contigs ........................: 30,674
+[05 Jun 20 10:16:13] num_splits .........................: 31,568
+[05 Jun 20 10:16:13] total_length .......................: 184,338,214
+[05 Jun 20 11:24:45] * Anvi'o profiler received SIGINT, terminating all processes...
+[05 Jun 20 11:24:46] New data for 'layers' in data group 'default'
+=====================================
+[05 Jun 20 11:24:46] Data key "total_reads_mapped" ......: Predicted type: int
+[05 Jun 20 11:24:46] Data key "num_SNVs_reported" .......: Predicted type: int
+[05 Jun 20 11:24:46] NEW DATA
+=====================================
+[05 Jun 20 11:24:46] Database ...........................: profile
+[05 Jun 20 11:24:46] Data group .........................: default
+[05 Jun 20 11:24:46] Data table .........................: layers
+[05 Jun 20 11:24:46] New data keys ......................: total_reads_mapped, num_SNVs_reported.
+[05 Jun 20 11:24:46] * Happy 
+[05 Jun 20 11:24:46] Bye.

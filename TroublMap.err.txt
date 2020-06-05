@@ -1,0 +1,37 @@
+java -Djava.library.path=/usr/local/bioinfo/bbmap/jni/ -ea -Xmx213975m -cp /usr/local/bioinfo/bbmap/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in1=Troubl_R1.qc.fq.gz in2=Troubl_R2.qc.fq.gz out=TroublMap.bam ref=Conts.fa minid=0.9 idfilter=0.97 lhist=TroublMap.ReadLeng.txt ihist=TroublMap.InsertLeng.txt statsfile=TroublMap.Stats.txt threads=4 nodisk
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in1=Troubl_R1.qc.fq.gz, in2=Troubl_R2.qc.fq.gz, out=TroublMap.bam, ref=Conts.fa, minid=0.9, idfilter=0.97, lhist=TroublMap.ReadLeng.txt, ihist=TroublMap.InsertLeng.txt, statsfile=TroublMap.Stats.txt, threads=4, nodisk]
+Version 37.76 [build=1, overwrite=true, fastareadlen=500, in1=Troubl_R1.qc.fq.gz, in2=Troubl_R2.qc.fq.gz, out=TroublMap.bam, ref=Conts.fa, minid=0.9, idfilter=0.97, lhist=TroublMap.ReadLeng.txt, ihist=TroublMap.InsertLeng.txt, statsfile=TroublMap.Stats.txt, threads=4, nodisk]
+
+Set length histogram output to TroublMap.ReadLeng.txt
+Set insert size histogram output to TroublMap.InsertLeng.txt
+Set threads to 4
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.816
+Executing dna.FastaToChromArrays2 [Conts.fa, 1, writeinthread=false, genscaffoldinfo=true, retain, waitforwriting=false, gz=true, maxlen=536670912, writechroms=false, minscaf=1, midpad=300, startpad=8000, stoppad=8000, nodisk=true]
+
+Set genScaffoldInfo=true
+Set genome to 1
+
+Loaded Reference:	0.118 seconds.
+Loading index for chunk 1-1, build 1
+Indexing threads started for block 0-1
+Indexing threads finished for block 0-1
+Generated Index:	28.111 seconds.
+Analyzed Index:   	4.216 seconds.
+Found samtools 1.6
+Started output stream:	0.345 seconds.
+Cleared Memory:    	0.122 seconds.
+Processing reads in paired-ended mode.
+Started read stream.
+Started 4 mapping threads.
+Detecting finished threads: 0, 1, 2, 3
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	16000
+Minimum Score Ratio:  	0.8162
+Mapping Mode:         	normal
+
+Total time:     	950.412 seconds.
