@@ -2,6 +2,7 @@
 Data relevant to Anvio errors during profiling
 
 Files:
+
 GenContDB.err.txt - stderr during anvi-gen-contigs-database using same contigs for read mapping
 GenContDB.out.txt - stdout during anvi-gen-contigs-database using same contigs for read mapping
 NOTTroublMap.err.txt - stderr of non-issue readset mapping to contigs (BBmap)
@@ -21,6 +22,7 @@ TroublMapProf.out.txt - stdout during anvi-profile
       Note, this profile was forcibly cancelled after ~1 hour, but originally ran for ~23 hours until workload manager killed        the job. Other profiles on similar sized reads sets mapped to the same contigs finished within minutes.
 
 Error (deviation from completing anvi-profile runlogs):
+
 [04 Jun 20 13:22:36 Profiling w/20 threads] 4770/30674 contigs :gear: | MEMORY :brain: 29.14 GB (+122.66 MB)     ETA: 2m20sProcess Process-3:
 Traceback (most recent call last):
  File “/usr/local/bioinfo/Anaconda3/envs/anvio6/lib/python3.6/multiprocessing/process.py”, line 258, in _bootstrap
