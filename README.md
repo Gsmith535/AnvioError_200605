@@ -32,11 +32,11 @@ TroublMap.Stats.txt - mapping statistics of non-issue readset mapping to contigs
 
 TroublMapProf_RUNLOG.txt - runlog generated during anvi-profile using issue reads
 
-TroublMapProf.err.txt - stderr during anvi-profile
+TroublMapProf.err.txt - stderr during anvi-profile of issue reads mapped to the fasta used to create the dontigs database
 
-TroublMapProf.out.txt - stdout during anvi-profile
+TroublMapProf.out.txt - stdout during anvi-profile of issue reads mapped to the fasta used to create the dontigs database
 
-      Note, this profile was forcibly cancelled after ~1 hour, but originally ran for ~23 hours until workload manager killed the job. Other profiles on similar sized reads sets mapped to the same contigs finished within minutes.
+      Note, this profile attempt was forcibly cancelled after ~1 hour, but originally ran for ~23 hours until workload manager killed the job. Other profiles on similar sized reads sets mapped to the same contigs finished within minutes.
 
 
 Error (deviation from completing anvi-profile runlogs):
