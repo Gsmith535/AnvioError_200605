@@ -4,6 +4,10 @@ Data relevant to Anvio errors during profiling
 
 Files:
 
+Conts.fa - contigs used for read recruitment and generation of contigs database
+
+Conts.db - contigs database generated from anvi-gen-contigs-database from Conts.fa
+
 GenContDB.err.txt - stderr during anvi-gen-contigs-database using same contigs for read mapping
 
 GenContDB.out.txt - stdout during anvi-gen-contigs-database using same contigs for read mapping
@@ -18,8 +22,6 @@ NOTTroublMap.InsertLeng.txt - histogram formatted insert lengths of non-issue re
 
 NOTTroublMap.Stats.txt - mapping statistics of non-issue readset mapping to contigs (BBmap)
 
-      Note, non-issue reads are not provided, and that theses reads were overall less deeply sequenced than the issue reads
-
 TroublMap.err.txt - stderr of issue readset mapping to contigs (BBmap)
 
 TroublMap.out.txt - stdout of issue readset mapping to contigs (BBmap)
@@ -29,6 +31,10 @@ TroublMap.ReadLeng.txt - histogram formatted read lengths of issue readset mappi
 TroublMap.InsertLeng.txt - histogram formatted insert lengths of issue readset mapping to contigs (BBmap)
 
 TroublMap.Stats.txt - mapping statistics of non-issue readset mapping to contigs (BBmap)
+
+TroublMapSort.bam - sorted BAM file of issue reads mapped to Conts.fa
+
+TroublMapSort.bam.bai - index of sorted BAM file of issue reads mapped to Conts.fa
 
 TroublMapProf_RUNLOG.txt - runlog generated during anvi-profile using issue reads
 
